@@ -50,6 +50,7 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   
+  
 }
 
 .app-card {
@@ -118,10 +119,12 @@ h2 {
   align-items: center;
   justify-content: space-between;
   padding: 5px 5px;
-  font-weight: 900;
+  
 }
 #self h1{
   margin: 0;
+  font-weight: 900;
+  font-size: 60px;
 }
 #viggu{
   display: block;
@@ -135,9 +138,9 @@ h2 {
     
 }
 #viggu:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: 0 14px 25px rgba(21, 21, 23, 0.12);
-  border:3px solid rgb(62, 160, 193)
+  border:3px solid rgb(84, 149, 171)
 }
 #l{    
   display: flex;
@@ -230,7 +233,6 @@ h2 {
     display: none;
   }
 }
-
 
 
 
